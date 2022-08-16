@@ -1,0 +1,31 @@
+
+body {
+    background: radial-gradient(rgb(248, 241, 241) 35%, rgb(235, 241, 102) 100%);
+    font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+    font-size: 4rem;    
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 5rem;
+    font:300;
+    margin-left: 50px;
+    margin-top: 50px;    
+}
+
+.row {
+    display:flex;
+    padding: 20px 20px;
+}
+.left-col {
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.right-col {
+    align-content: flex-start ;
+}
