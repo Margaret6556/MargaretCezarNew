@@ -1,31 +1,43 @@
-
 body {
-    background: radial-gradient(rgb(248, 241, 241) 35%, rgb(235, 241, 102) 100%);
-    font-family: 'Dancing Script', cursive;
+  background: radial-gradient(rgb(248, 241, 241) 35%, rgb(235, 241, 102) 100%);
+  font-size: 48px;
 }
 
 h1 {
-    font-size: 4rem;    
-    padding-left: 50px;
-    margin-top: 50px;
+  font-size: 5rem;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding-top: 20px;
 }
 
 h2 {
-    font-size: 5rem;
-    font:300;
-    margin-left: 50px;
-    margin-top: 50px;    
+  text-align: left;
+  margin-left: 50px;
+  padding: 0 auto;
+  font-family: Tangerine;
 }
 
-.row {
-    display:flex;
-    padding: 20px 20px;
+h3{
+    text-align: justify;
 }
+
+.flex-container {
+   box-sizing: border-box;
+}
+
+.logo {
+  border-radius: 10px;
+  align-items: center;
+}
+.row {
+  display: flex;
+}
+
 .left-col {
-    box-sizing: border-box;
-    align-items: flex-start;
+  box-sizing: border-box;
+
 }
 
 .right-col {
-    align-content: flex-start ;
+  align-content: flex-start;
 }
